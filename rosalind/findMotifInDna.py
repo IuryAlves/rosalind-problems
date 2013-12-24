@@ -20,7 +20,7 @@ Return: All locations of t as a substring of s.
 
 
 def findMotifInDna(dnaString, t):
-    return [(i + 1) for i, x in zip(range(0, 17), dnaString) if t == dnaString[i:i + len(t)]]
+    return [(i + 1) for i, x in zip(range(0, len(dnaString), dnaString) if t == dnaString[i:i + len(t)]]
 
 
 class Test(unittest.TestCase):
