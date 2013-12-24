@@ -34,6 +34,7 @@ class Test(unittest.TestCase):
         self.assertEqual([3, 13], findMotifInDna('AUGCUUCAGAAAGCUCUUACG', 'GCU'))
 
 
-
+if __name__ == '__main__':
+    unittest.main()
 
 
